@@ -1,0 +1,37 @@
+{
+  "x35": {
+    "type": "object",
+    "value": {
+      "friday": "fri",
+      "wednesday": "wed",
+      "thursday": "thur",
+      "thurday": "thur",
+      "monday": "mon",
+      "tuesday": "tue"
+    }
+  },
+  "x68": {
+    "regex": "False",
+    "value": {
+      "Dev": "Dec",
+      "January": "Sept",
+      "sept.": "Sept",
+      "July": "Jul"
+    }
+  },
+  "x41": {
+    "regex": "True",
+    "type": "np.float",
+    "value": {
+      "[\\$\\,]": ""
+    }
+  },
+  "x45": {
+    "regex": "True",
+    "type": "np.float",
+    "value": {
+      "[\\,\\%]": "",
+      "-0.0": "0.0"
+    }
+  }
+}
