@@ -411,8 +411,6 @@ def train_ridge():
 
     x_poly_test = poly_features.fit_transform(x_test)
 
-    prob_test = calculate_probability(model=ridge, x_=x_poly_test, fn="data/ridge.csv")
-
 
 def train_svm():
     """
